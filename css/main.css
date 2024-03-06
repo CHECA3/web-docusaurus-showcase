@@ -1,7 +1,7 @@
 /* Estilos para el menú */
 .menu {
-    background-color: black;
-    padding: 10px;
+    background-color: #333;
+    overflow:hidden;
 }
 .menu ul {
     list-style-type: none;
@@ -9,12 +9,18 @@
     padding: 0;
 }
 .menu ul li {
-    display: inline;
-    margin-right: 10px;
+    display: inline-block;;
 }
 .menu ul li a {
+    display: block;
     color: white;
+    text-align: center;
+    padding: 14px 20px;
     text-decoration: none;
+}
+.menu ul li a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse */
+    color: black; /* Cambio de color de texto al pasar el mouse */
 }
 
 /* Estilos para el contenido principal */
