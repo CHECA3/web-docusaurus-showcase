@@ -23,13 +23,14 @@
     padding: 50px;
     text-align: center;
     color: white;
+    font-family: 'Comic Sans MS', cursive;
 }
 
 /* Estilos para la lista de elementos */
 .lista-elementos {
     background-color: #cfe7f6; 
     background-size: cover;
-    padding: 20px; /* Agregar un poco de espacio alrededor de la lista */
+    padding: 20px; /* Agregar un poco de espacio alrededor de la lista */ 
 }
 
 .lista-elementos ul {
