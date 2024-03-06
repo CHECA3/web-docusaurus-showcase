@@ -1,0 +1,68 @@
+/* Estilos para el menú */
+.menu {
+    background-color: black;
+    padding: 10px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+.contenido-principal {
+    background: url(https://img.freepik.com/foto-gratis/fondo-oscuro-abstracto_1048-1920.jpg?size=338&ext=jpg&ga=GA1.1.117944100.1709596800&semt=ais) center top no-repeat;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+/* Estilos para la lista de elementos */
+.lista-elementos {
+    background-color: #cfe7f6; 
+    background-size: cover;
+    padding: 20px; /* Agregar un poco de espacio alrededor de la lista */
+}
+
+.lista-elementos ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lista-elementos ul li {
+    flex: 1 0 30%; /* Tres columnas en pantalla grande */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.elemento {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; /* Esquinas redondeadas */
+    background-color: white; /* Fondo blanco */
+}
+
+.elemento h3 {
+    color: green; /* Color verde agua */
+    text-decoration: none; /* Eliminar el subrayado del texto */
+}
+
+.elemento h3 a {
+    text-decoration: none; /* Anular el subrayado de los enlaces dentro de los h3 */
+    border-bottom: none; /* Eliminar el borde inferior */
+}
+
+.elemento img {
+    max-width: 100%;
+}
