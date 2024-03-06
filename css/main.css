@@ -63,7 +63,7 @@
     flex: 1 0 30%; /* Tres columnas en pantalla grande */
     padding: 10px;
     box-sizing: border-box;
-    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadimos sombra */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añadimos sombra */
 }
 
 .elemento {
